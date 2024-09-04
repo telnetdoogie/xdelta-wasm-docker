@@ -1,3 +1,12 @@
+# [1.1.0](https://github.com/telnetdoogie/xdelta-wasm-docker/compare/v1.0.3...v1.1.0) (2024-09-04)
+
+
+### Features
+
+* just wrapping gh-pages with nginx, added redirect for docker ([2cc2ad5](https://github.com/telnetdoogie/xdelta-wasm-docker/commit/2cc2ad5b3c3821cf4091297f7e220d10cd86256b))
+
+
+
 ## [1.0.3](https://github.com/telnetdoogie/xdelta-wasm-docker/compare/v1.0.2...v1.0.3) (2024-09-04)
 
 
