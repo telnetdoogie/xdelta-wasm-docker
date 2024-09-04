@@ -6,5 +6,5 @@ services:
     labels:
       com.centurylinklabs.watchtower.enable: "true"
     ports:
-      - 9090:3000/tcp		#change 9090 to the port you'd like to use
+      - 9090:80/tcp		#change 9090 to the port you'd like to use
     
