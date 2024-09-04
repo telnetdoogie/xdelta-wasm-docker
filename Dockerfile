@@ -49,6 +49,9 @@ COPY . .
 # Install npm dependencies
 RUN npm install
 
+# Compile 
+RUN npm run build
+
 # Default command to run the development server
 CMD ["npm", "run", "start"]
 
