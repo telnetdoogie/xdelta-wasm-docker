@@ -1,6 +1,6 @@
 {
   "name": "xdelta-wasm",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "homepage": "https://kotcrab.github.io/xdelta-wasm",
   "dependencies": {
