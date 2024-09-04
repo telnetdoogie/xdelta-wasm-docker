@@ -19,7 +19,7 @@ jobs:
         with:
           github-token: ${{ secrets.GH_TOKEN }}
           output-file: 'CHANGELOG.md'
-          version-file: 'package.json'
+          version-file: 'version.json'
       - name: Debug Changelog Outputs
         run: |
           echo "Skipped: ${{ steps.changelog.outputs.skipped }}"
