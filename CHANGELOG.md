@@ -1,3 +1,12 @@
+## [1.0.2](https://github.com/telnetdoogie/xdelta-wasm-docker/compare/v1.0.1...v1.0.2) (2024-09-04)
+
+
+### Bug Fixes
+
+* added pre-compilation ([112ed49](https://github.com/telnetdoogie/xdelta-wasm-docker/commit/112ed49f9fb08004672dac06bf406c5b0ee9c922))
+
+
+
 ## [1.0.1](https://github.com/telnetdoogie/xdelta-wasm-docker/compare/v0.1.1...v1.0.1) (2024-09-04)
 
 
