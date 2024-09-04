@@ -1,5 +1,5 @@
 # Use an Alpine base image with Node.js
-FROM node:18-alpine
+FROM node:18-alpine AS builder
 
 # Install necessary packages for running xdelta3, xz-utils, and Emscripten
 RUN apk update && apk add --no-cache \
@@ -52,6 +52,13 @@ RUN npm install
 # Compile 
 RUN npm run build
 
-# Default command to run the development server
-CMD ["npm", "run", "start"]
+# Stage 2: Copy the build output from the first stage
+FROM nginx:alpine
+
+COPY --from=builder /app/build /usr/share/nginx/html
+ENV NGINX_LISTEN_PORT 80
+EXPOSE 80
+
+# Start Nginx
+CMD ["nginx", "-g", "daemon off;"]
 
