@@ -1,3 +1,12 @@
+# [1.2.0](https://github.com/telnetdoogie/xdelta-wasm-docker/compare/v1.1.0...v1.2.0) (2025-06-16)
+
+
+### Features
+
+* **deps:** bump release for updated dependencies ([464f48b](https://github.com/telnetdoogie/xdelta-wasm-docker/commit/464f48b138bee13b380021e60c621a682c53e553))
+
+
+
 # [1.1.0](https://github.com/telnetdoogie/xdelta-wasm-docker/compare/v1.0.3...v1.1.0) (2024-09-04)
 
 
