@@ -1,5 +1,5 @@
 # Stage 1: Build the xdelta-wasm project
-FROM alpine:latest AS build
+FROM FROM alpine:3.22.0 AS build
 
 # Install git in the Alpine container
 RUN apk add --no-cache git
@@ -11,7 +11,7 @@ WORKDIR /app
 RUN git clone --branch gh-pages --single-branch https://github.com/kotcrab/xdelta-wasm.git .
 
 # Stage 2: Set up Nginx to serve the built project
-FROM nginx:alpine
+FROM nginx:stable-alpine3.21
 
 # Copy the custom Nginx configuration for root redirects
 COPY default.conf /etc/nginx/conf.d/
