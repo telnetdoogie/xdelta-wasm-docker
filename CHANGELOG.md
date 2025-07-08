@@ -1,3 +1,12 @@
+# [1.3.0](https://github.com/telnetdoogie/xdelta-wasm-docker/compare/v1.2.0...v1.3.0) (2025-07-08)
+
+
+### Features
+
+* **deps:** bump release for updated dependencies ([a13eb90](https://github.com/telnetdoogie/xdelta-wasm-docker/commit/a13eb904019c303cf02866f589fcb5012b388e0b))
+
+
+
 # [1.2.0](https://github.com/telnetdoogie/xdelta-wasm-docker/compare/v1.1.0...v1.2.0) (2025-06-16)
 
 
@@ -31,16 +40,6 @@
 ### Bug Fixes
 
 * added pre-compilation ([112ed49](https://github.com/telnetdoogie/xdelta-wasm-docker/commit/112ed49f9fb08004672dac06bf406c5b0ee9c922))
-
-
-
-## [1.0.1](https://github.com/telnetdoogie/xdelta-wasm-docker/compare/9e366a3919b67ee1f465ec34208e98e0aa3bea28...v1.0.1) (2024-09-04)
-
-
-### Bug Fixes
-
-* remove healthcheck ([9e366a3](https://github.com/telnetdoogie/xdelta-wasm-docker/commit/9e366a3919b67ee1f465ec34208e98e0aa3bea28))
-* versioning for dockerhub ([2a4adbd](https://github.com/telnetdoogie/xdelta-wasm-docker/commit/2a4adbd3d63deac912f6396fc37562098944de34))
 
 
 
