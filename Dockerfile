@@ -1,5 +1,5 @@
 # Stage 1: Build the xdelta-wasm project
-FROM alpine:3.22.0 AS build
+FROM alpine:3.22.1 AS build
 
 # Install git in the Alpine container
 RUN apk add --no-cache git
