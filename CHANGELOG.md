@@ -1,3 +1,12 @@
+# [1.6.0](https://github.com/telnetdoogie/xdelta-wasm-docker/compare/v1.5.0...v1.6.0) (2025-12-08)
+
+
+### Features
+
+* **deps:** bump release for updated dependencies ([1959a1a](https://github.com/telnetdoogie/xdelta-wasm-docker/commit/1959a1a4cd0048f9eea97e0da6faa0a4092bfdbd))
+
+
+
 # [1.5.0](https://github.com/telnetdoogie/xdelta-wasm-docker/compare/v1.4.0...v1.5.0) (2025-11-09)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * **deps:** bump release for updated dependencies ([464f48b](https://github.com/telnetdoogie/xdelta-wasm-docker/commit/464f48b138bee13b380021e60c621a682c53e553))
-
-
-
-# [1.1.0](https://github.com/telnetdoogie/xdelta-wasm-docker/compare/v1.0.3...v1.1.0) (2024-09-04)
-
-
-### Features
-
-* just wrapping gh-pages with nginx, added redirect for docker ([2cc2ad5](https://github.com/telnetdoogie/xdelta-wasm-docker/commit/2cc2ad5b3c3821cf4091297f7e220d10cd86256b))
 
 
 
