@@ -4,5 +4,18 @@
     "config:recommended",
     "group:allNonMajor",
     "helpers:pinGitHubActionDigests"
+  ],
+  "packageRules": [
+    {
+      "matchManagers": ["github-actions"],
+      "matchUpdateTypes": ["minor", "patch", "digest"],
+      "groupName": "CI Dependencies"
+    },
+    {
+      "groupName": "CI Dependencies",
+      "matchUpdateTypes": ["patch", "digest"],
+      "automerge": true,
+      "automergeType": "pr"
+    }
   ]
 }
