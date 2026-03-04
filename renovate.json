@@ -1,5 +1,5 @@
 {
-"$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
     "config:recommended",
     "group:allNonMajor",
@@ -12,7 +12,7 @@
       "groupName": "CI Dependencies"
     },
     {
-      "groupName": "CI Dependencies",
+      "matchManagers": ["github-actions"],
       "matchUpdateTypes": ["patch", "digest"],
       "automerge": true,
       "automergeType": "pr"
